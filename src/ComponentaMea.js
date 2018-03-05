@@ -53,7 +53,12 @@ export default class ComponentaMea extends Component {
         {[1,2,3]}
 
         <NouaComponenta name={this.state.ceva} change = {this.changeInputName.bind(this)}/>
+
+        <NouaComponenta name={this.state.name} change = {this.changeInputName.bind(this)}/>
+
+
       </div>
+
     )
   }
 }
